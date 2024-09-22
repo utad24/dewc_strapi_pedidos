@@ -9,7 +9,7 @@ export interface ApiOrderOrder extends Struct.CollectionTypeSchema {
     description: '';
   };
   options: {
-    draftAndPublish: true;
+    draftAndPublish: false;
   };
   attributes: {
     userData: Schema.Attribute.JSON;
